@@ -1,0 +1,79 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	background-color: black;
+}
+.structure {
+	width: 60%;
+	padding: 40px;
+	margin: auto;
+}
+
+p, button, input {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 1px;
+	cursor: pointer;
+}
+table {
+	width: 100%;
+	text-align: left;
+	background-color: white;
+	color: black;
+}
+.article--name{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 0.75rem;
+}
+.Qte-moins{
+	border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.Qte-plus{
+	border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.total{
+	color: red;
+    font-weight: bold;
+}
+table tbody {
+    background-color: white;
+	color: black;
+}
+
+table, th, td {
+    color: black;
+	padding: 10px;
+}
+tbody button {
+	color: white;
+	background-color: gray;
+	border: none;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
+tbody button:hover {
+	background-color: red;
+	transform:scale(1.1);
+}
+.Sumtotal{
+    color: rgb(14, 14, 14);
+   display: grid;
+   align-items: center;
+}
+
+
+
+
+
